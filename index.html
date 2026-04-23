@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McDonald's - I'm Lovin' It</title>
+    <link href="./dist/output.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="font-sans bg-gray-50 text-gray-800">
+
+    <nav class="bg-mcd-red text-white shadow-lg fixed w-full z-50 top-0">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex items-center">
+                    <h1 class="text-3xl font-bold text-mcd-yellow tracking-wider">M</h1>
+                    <span class="ml-2 text-xl font-bold">McDonald's</span>
+                </div>
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="#beranda" class="hover:text-mcd-yellow transition">Beranda</a>
+                    <a href="#menu" class="hover:text-mcd-yellow transition">Menu Favorit</a>
+                    <a href="#promo" class="hover:text-mcd-yellow transition">Promo</a>
+                    <a href="#" class="bg-mcd-yellow text-mcd-red px-6 py-2 rounded-full font-bold hover:bg-yellow-400 transition shadow-md">Pesan Sekarang</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="beranda" class="pt-28 pb-20 bg-mcd-red text-white text-center md:text-left relative overflow-hidden min-h-[80vh] flex items-center">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 space-y-6">
+                <h2 class="text-5xl md:text-7xl font-bold leading-tight">
+                    Nikmati Momen <br> <span class="text-mcd-yellow">Manis Bersama.</span>
+                </h2>
+                <p class="text-lg md:text-xl text-gray-100">
+                    Dari gigitan pertama hingga terakhir, rasakan kelezatan ayam krispi dan burger ikonik kami. Pesan sekarang dan nikmati promo eksklusif hari ini!
+                </p>
+                <div class="pt-4 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                    <a href="#menu" class="bg-mcd-yellow text-mcd-red font-bold px-8 py-3 rounded-full hover:bg-yellow-400 transition shadow-lg text-center">Lihat Menu</a>
+                    <a href="#" class="bg-transparent border-2 border-white font-bold px-8 py-3 rounded-full hover:bg-white hover:text-mcd-red transition shadow-lg text-center">Cari Lokasi</a>
+                </div>
+            </div>
+            <div class="md:w-1/2 mt-12 md:mt-0 flex justify-center">
+                <div class="w-72 h-72 md:w-96 md:h-96 bg-mcd-yellow rounded-full shadow-2xl flex items-center justify-center p-8 transform hover:scale-105 transition duration-500">
+                    <p class="text-mcd-red font-bold text-3xl text-center">🍔 <br> Big Mac <br> Menunggumu!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h3 class="text-3xl font-bold text-mcd-red">Menu Favorit Kami</h3>
+                <p class="mt-4 text-gray-600">Pilihan terbaik yang selalu bikin nagih setiap saat.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <div class="bg-gray-50 rounded-2xl p-6 shadow-lg hover:shadow-xl transition group">
+                    <div class="h-48 bg-gray-200 rounded-xl mb-6 flex items-center justify-center text-5xl group-hover:scale-105 transition">🍔</div>
+                    <h4 class="text-xl font-bold mb-2">Big Mac</h4>
+                    <p class="text-gray-600 mb-4">Dua lapis daging sapi gurih dengan saus spesial legendaris.</p>
+                    <div class="flex justify-between items-center">
+                        <span class="font-bold text-xl text-mcd-red">Rp 45.000</span>
+                        <button class="bg-mcd-yellow text-mcd-red p-2 rounded-full font-bold hover:bg-yellow-400">➕</button>
+                    </div>
+                </div>
+
+                <div class="bg-gray-50 rounded-2xl p-6 shadow-lg hover:shadow-xl transition group">
+                    <div class="h-48 bg-gray-200 rounded-xl mb-6 flex items-center justify-center text-5xl group-hover:scale-105 transition">🍟</div>
+                    <h4 class="text-xl font-bold mb-2">French Fries</h4>
+                    <p class="text-gray-600 mb-4">Kentang goreng renyah keemasan, favorit semua kalangan.</p>
+                    <div class="flex justify-between items-center">
+                        <span class="font-bold text-xl text-mcd-red">Rp 20.000</span>
+                        <button class="bg-mcd-yellow text-mcd-red p-2 rounded-full font-bold hover:bg-yellow-400">➕</button>
+                    </div>
+                </div>
+
+                <div class="bg-gray-50 rounded-2xl p-6 shadow-lg hover:shadow-xl transition group">
+                    <div class="h-48 bg-gray-200 rounded-xl mb-6 flex items-center justify-center text-5xl group-hover:scale-105 transition">🍗</div>
+                    <h4 class="text-xl font-bold mb-2">Ayam Spicy McD</h4>
+                    <p class="text-gray-600 mb-4">Ayam goreng renyah dengan bumbu pedas yang meresap sempurna.</p>
+                    <div class="flex justify-between items-center">
+                        <span class="font-bold text-xl text-mcd-red">Rp 35.000</span>
+                        <button class="bg-mcd-yellow text-mcd-red p-2 rounded-full font-bold hover:bg-yellow-400">➕</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="promo" class="py-16 bg-mcd-yellow">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h3 class="text-3xl md:text-4xl font-bold text-mcd-red mb-6">Makan Kenyang, Dompet Tenang!</h3>
+            <p class="text-lg text-mcd-red mb-8">Gunakan kode voucher <span class="font-bold bg-white px-3 py-1 rounded">MCDHEMAT20</span> untuk diskon 20% khusus pemesanan hari ini via aplikasi.</p>
+            <a href="#" class="inline-block bg-mcd-red text-white font-bold px-10 py-4 rounded-full hover:bg-red-700 transition shadow-lg">Download Aplikasi Sekarang</a>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
+            <div class="mb-6 md:mb-0 text-center md:text-left">
+                <h1 class="text-2xl font-bold text-mcd-yellow tracking-wider mb-2">McDonald's</h1>
+                <p class="text-gray-400 text-sm">© 2026 McDonald's Corporation. Hak Cipta Dilindungi Undang-Undang.</p>
+            </div>
+            <div class="flex space-x-6">
+                <a href="#" class="text-gray-400 hover:text-white transition">Instagram</a>
+                <a href="#" class="text-gray-400 hover:text-white transition">Twitter</a>
+                <a href="#" class="text-gray-400 hover:text-white transition">Facebook</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
